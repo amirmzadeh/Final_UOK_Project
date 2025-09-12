@@ -73,11 +73,11 @@ class YOLO_GUI:
     
     def on_model_select(self, event):
         model_mapping = {
-            "PPE Detection (Hardhat, Mask, Vest)": "/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/PPE-cutom-object-detection-with-YOLOv8/ppe.pt",
-            "Alpaca Detection": "/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/alpaca training results/weights/best.pt",
+            "PPE Detection (Hardhat, Mask, Vest)": "C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-cutom-object-detection/PPE-custom-object-detection-with-YOLOv8/ppe.pt",
+            "Alpaca Detection": "C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/alpaca training results/weights/best.pt",
             "Bee and Butterfly Detection (60 epochs)": "C:/Users/My Dell/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Bee and Butterfly 60 epochs/weights/best.pt",
-            "Ant and Insect Detection (5 epochs)": "/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  5 epochs/weights/best.pt",
-            "Ant and Insect Detection (45 epochs)": "/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  45 epochs/weights/best.pt"
+            "Ant and Insect Detection (5 epochs)": "C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  5 epochs/weights/best.pt",
+            "Ant and Insect Detection (45 epochs)": "C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  45 epochs/weights/best.pt"
         }
         
         selected = self.model_var.get()
