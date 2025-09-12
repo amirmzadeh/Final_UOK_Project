@@ -40,19 +40,19 @@ from ultralytics import YOLO
 
 # انتخاب مدل مورد نظر با برداشتن کامنت
 # مدل تشخیص تجهیزات محافظت شخصی (PPE) - تشخیص کلاه ایمنی، ماسک و جلیقه ایمنی
-# model = YOLO('/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/PPE-cutom-object-detection-with-YOLOv8/ppe.pt')
+# model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/PPE-cutom-object-detection-with-YOLOv8/ppe.pt')
 
 # مدل تشخیص آلپاکا
-# model = YOLO('/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/alpaca training results/weights/best.pt')
+model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/alpaca training results/weights/best.pt')
 
 # مدل تشخیص زنبور و پروانه (60 اپوک)
-model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Bee and Butterfly 60 epochs/weights/best.pt')
+#model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Bee and Butterfly 60 epochs/weights/best.pt')
 
 # مدل تشخیص مورچه و حشرات (5 اپوک)
-# model = YOLO('/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  5 epochs/weights/best.pt')
+# model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  5 epochs/weights/best.pt')
 
 # مدل تشخیص مورچه و حشرات (45 اپوک - دقت بیشتر)
-# model = YOLO('/home/abtin/project/yolo-tmp/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  45 epochs/weights/best.pt')
+# model = YOLO('C:/Users/My Dell/YOLOv8-custom-object-detection/YOLOv8-custom-object-detection/Custom-object-detection-with-YOLOv8/Ant and insect training results  45 epochs/weights/best.pt')
 
 # برای پیش‌بینی روی یک تصویر
 results = model.predict(source='C:/Users/My Dell/YOLOv8-custom-object-detection/Zanbor.jpg', save=True)
